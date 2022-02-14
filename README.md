@@ -18,7 +18,7 @@
 This is a simple static website made with HTML5, CSS, and JavaScript. There is not specific requirements for building the project.
 ## Live Demo
 
-Check the [Live Demo](https://dagic-zewdu.github.io/awesome-books-with-classes/) deployed on github pages.
+Check the [Live Demo](https://elerqsousy.github.io/awesome-books-es6-version/) deployed on github pages.
 ## Authors
 
 👤 **Mahmoud Rizk**
