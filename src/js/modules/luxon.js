@@ -1,5 +1,4 @@
-const { DateTime } = require('luxon');
+import { DateTime } from "luxon";
 
-const dt = DateTime.now();
-const now = dt.toLocaleString(DateTime.DATETIME_MED);
+const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 export default now;
