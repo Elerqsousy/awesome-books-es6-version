@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="src/styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <h3 class="heading-3">Awesome Books</h3>
+        <ul class="nav-container">
+          <li class="nav-item vl nav-book-list">List</li>
+          <li class="nav-item vl nav-add-books">Add new</li>
+          <li class="nav-item nav-contacts">Contact</li>
+        </ul>
+      </nav>
+      <div class="date"></div>
+    </header>
+    <section id="added-books">
+      <h1 class="heading">Awesome Books</h1>
+      <div class="card">
+        <ul class="book-list"></ul>
+      </div>
+    </section>
+    <section class="book-form" id="book-form">
+      <h2 class="heading margin-b">Add a new book</h2>
+      <form action="#" id="form">
+        <input
+          type="text"
+          name="title"
+          required
+          id="title"
+          placeholder="Title"
+          class="input-item my-10"
+        />
+        <input
+          type="text"
+          name="author"
+          required
+          id="author"
+          placeholder="Author"
+          class="input-item"
+        />
+        <p class="my-10 message"></p>
+        <button type="submit" class="btn-submit">Add</button>
+      </form>
+    </section>
+    <section class="contact-section" id="contact">
+      <h2 class="heading margin-b">Contact information</h2>
+      <p class="contact-info">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur,
+        libero natus? Ullam provident praesentium alias dicta vero voluptate,
+        saepe possimus? Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Iste, itaque?
+      </p>
+      <ul>
+        <li>Our email: mail@mail.com</li>
+        <li>our phone number: 00112233445566</li>
+        <li>Our adress: Address city country</li>
+      </ul>
+    </section>
+    <footer>
+      <h3 class="heading-4">&copy; Allrights reserved</h3>
+    </footer>
+    <script type="module" src="./src/js/index.js"></script>
+  </body>
+</html>
