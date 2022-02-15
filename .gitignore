@@ -1,7 +1,7 @@
 package-lock.json
 
-node_modules/
-!node_modules/*/luxon/
+node_modules/*/!luxon/
+# node_modules/
 
 dist
 .parcel-cache
