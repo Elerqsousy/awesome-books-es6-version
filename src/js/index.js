@@ -53,13 +53,13 @@ const addBooks = (title, author, id) => {
   TitleInputField.value = '';
   AuthorInputField.value = '';
 };
-const updateUserInterface = ()=> {
+const updateUserInterface = () => {
   const retrievedData = localStorage.getItem('booklist');
   tab = localStorage.getItem('tab');
   const bookList = JSON.parse(retrievedData);
   bookList.forEach((book) => booksClass.addBooks(book.title, book.author, book.id));
   renderBooks();
-}
+};
 const render = () => {
   if (tab === 'book-list') {
     bookFormSection.style.display = 'none';
