@@ -6,7 +6,7 @@
 
 ## Screensot
 
-![screenshot](./screenshot-1.png)
+![screenshot](./screenshot.png)
 
 ## Built With
 
@@ -16,6 +16,8 @@
 ## Getting Started
 
 This is a simple static website made with HTML5, CSS, and JavaScript. There is not specific requirements for building the project.
+### setting up the project
+To setup the project, you will need to clone the file locally and then use npm install to install all dependencies. After that you can open index.html or run live server.
 ## Live Demo
 
 Check the [Live Demo](https://elerqsousy.github.io/awesome-books-es6-version/) deployed on github pages.
