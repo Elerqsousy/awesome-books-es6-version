@@ -1,4 +1,4 @@
-import { DateTime } from '../../../node_modules/luxon/build/es6/luxon.js';
+import { DateTime } from 'luxon';
 
 const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 export default now;
