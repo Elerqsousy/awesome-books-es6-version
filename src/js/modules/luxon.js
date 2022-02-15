@@ -1,4 +1,4 @@
-/* eslint no-use-before-define: 0 */ // --> OFF
+/* eslint-disable */ 
 import { DateTime } from 'luxon';
 
 const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
