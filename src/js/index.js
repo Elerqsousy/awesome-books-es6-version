@@ -1,4 +1,4 @@
-import Books from './modules/books_class_module';
+import Books from './modules/books_class_module.js';
 import now from './modules/luxon.js';
 
 const date = document.querySelector('.date');
