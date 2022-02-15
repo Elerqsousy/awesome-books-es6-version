@@ -39,13 +39,11 @@ const renderBooks = () => {
 
   bookContainer.innerHTML = li;
   const removeBtn = document.querySelectorAll('.btn-remove');
-  removeBtn.forEach((button) =>
-    button.addEventListener('click', () => {
-      booksClass.removeBook(button.id);
-      updateStorage();
-      renderBooks();
-    })
-  );
+  removeBtn.forEach((button) => button.addEventListener('click', () => {
+    booksClass.removeBook(button.id);
+    updateStorage();
+    renderBooks();
+  }));
 };
 const addBooks = (title, author, id) => {
   booksClass.addBooks(title, author, id);
@@ -59,9 +57,7 @@ function updateUserInterface() {
   const retrievedData = localStorage.getItem('booklist');
   tab = localStorage.getItem('tab');
   const bookList = JSON.parse(retrievedData);
-  bookList.forEach((book) =>
-    booksClass.addBooks(book.title, book.author, book.id)
-  );
+  bookList.forEach((book) => booksClass.addBooks(book.title, book.author, book.id));
   renderBooks();
 }
 const render = () => {

@@ -6,8 +6,8 @@ export default class Books {
   }
 
   addBooks(title, author, id) {
-    const b = new Book(title, author, id); 
-    this.books.push(b); 
+    const b = new Book(title, author, id);
+    this.books.push(b);
   }
 
   getBooks() {
